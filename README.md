@@ -15,7 +15,7 @@ cd Cloud_Native_CloudShop
 ```
 interactive mode
 ```
-sh run.sh
+bash run.sh
 ```
 or non-interactive mode
 ```
@@ -30,4 +30,4 @@ to
 ```
 db_type: RepositoryType = RepositoryType.MEMORY
 ```
-to change repository mode (type MEMORY dose not save/load any file)
+to change repository mode (type MEMORY does not save/load any file)
