@@ -1,6 +1,7 @@
 # Cloud_Native_CloudShop
 
 ## Environment
+* OS=Ubuntu 22.04
 * python=3.8 or higher
 
 ## Installation
@@ -18,7 +19,7 @@ sh run.sh
 ```
 or non-interactive mode
 ```
-sh run.sh < input.txt
+bash run.sh < input.txt
 ```
 
 you can modify `config/database.py`
