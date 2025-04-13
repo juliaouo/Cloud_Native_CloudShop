@@ -67,7 +67,7 @@ class ListingService:
         
         result = []
         for listing in listings:
-            result.append(f"{listing.title}|{listing.description}|{listing.price}|{listing.created_time}")
+            result.append(f"{listing.title}|{listing.description}|{listing.price}|{listing.created_time}|{listing.category}|{listing.username}")
         
         return True, "\n".join(result)
     
